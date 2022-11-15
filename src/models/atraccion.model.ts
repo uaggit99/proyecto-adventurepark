@@ -17,10 +17,10 @@ export class Atraccion extends Entity {
   nombre: string;
 
   @property({
-    type: 'number',
+    type: 'string',
     required: true,
   })
-  estado: number;
+  estado: string;
 
   @property({
     type: 'string',
@@ -29,10 +29,10 @@ export class Atraccion extends Entity {
   imagen: string;
 
   @property({
-    type: 'number',
+    type: 'string',
     required: true,
   })
-  estaturaminima: number;
+  estaturaminima: string;
 
   @property({
     type: 'string',
